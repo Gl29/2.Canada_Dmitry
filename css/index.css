@@ -36,7 +36,7 @@ aside {
 html,
 body {
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
   font-size: 100%;
   line-height: 1;
   font-size: 14px;
@@ -144,10 +144,12 @@ body {
 /* --------------------------------------------- */
 .listOfWorks_interior {
   grid-area: listOfWorks_interior;
+  height: 40vh;
 }
 
 .listOfWorks_exterrior {
   grid-area: listOfWorks_exterrior;
+  height: 40vh;
 }
 
 .subtitle {
@@ -172,6 +174,11 @@ body {
 /* photo slider */
 .slider_1 {
   grid-area: slider_1;
+}
+
+/* photo slider */
+.slider_2 {
+  grid-area: slider_2;
 }
 
 
@@ -255,12 +262,9 @@ img {
 
   grid-template-areas:
     'header header header'
-    /* 'listWorks listWorks listWorks' */
     'provididServices provididServices provididServices'
     'listOfWorks_interior slider_1 slider_1'
-    'listOfWorks_exterrior slider_1 slider_1'
-
-
+    'listOfWorks_exterrior slider_2 slider_2'
     'footer_head footer_head footer_head'
     'footer_write footer_call footer_massenger'
 
