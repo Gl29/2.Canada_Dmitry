@@ -250,7 +250,7 @@ img {
 .grid-container-main {
   display: grid;
   grid-template-columns: 0.9fr 1fr 1fr;
-  /* grid-template-rows: 0.5fr 0.2fr 2fr 2fr 0.2fr 0.2fr; */
+  grid-template-rows: 0.5fr 0.2fr 2fr 2fr 0.2fr 0.2fr;
 /* grid-template-rows: 15vh 5vh 30vh 30vh 10vh 10vh; */
 
   grid-template-areas:
@@ -268,16 +268,16 @@ img {
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   .grid-container {
     grid-template-areas:
       'header header header header header header'
-      /* 'dateTime dateTime dateTime dateTime dateTime dateTime' */
+     
       'dateTime dateTime dateTime dateTime dateTime dateTime'
 
       'temperature temperature temperature temperature temperature'
-      /* 'left left left left left left' */
+      
       'table table table table table table'
       'footer footer footer footer footer footer';
   }
-}
+}*/
