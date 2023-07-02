@@ -3,14 +3,14 @@ $(document).ready(function(){
  $('.slider_1').slick(
   {arrows:true,
     dots:true,
-    adaptiveHeight:true,
+    adaptiveHeight:false,
 
     variableWidth: false,
 
     centerMode: true,
 
-    slidesToShow: 2,
-    slidesToScroll:2,
+    slidesToShow: 3,
+    slidesToScroll:3,
     speed: 800,
     // autoplay: true,
     autoplaySpeed:3000,
@@ -40,9 +40,27 @@ $(document).ready(function(){
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          centerMode: true,
+          arrows: false
+
+          // settings: "unslick"
         }
       }
+      ,
+      {
+        breakpoint: 200,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: false,
+          arrows: false
+          // settings: "unslick"
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
     ]
 
 
