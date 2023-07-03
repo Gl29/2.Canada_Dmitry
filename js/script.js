@@ -4,6 +4,7 @@ $(document).ready(function(){
   {
       arrows:true,
       dots:true,
+      lazyLoad: 'ondemand',
     // adaptiveHeight:true,
     // variableWidth: false,
     variableWidth: true,
@@ -74,6 +75,7 @@ $(document).ready(function(){
    {
       arrows:true,
       dots:true,
+      lazyLoad: 'ondemand',
      // adaptiveHeight:true,
      // variableWidth: false,
      variableWidth: true,

@@ -106,6 +106,7 @@ body {
   grid-area: header;
   height: 15em;
   margin-bottom: 0.7em;
+  /* position: fixed;   */
 }
 
 .headerText {
