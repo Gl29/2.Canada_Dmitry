@@ -1,8 +1,9 @@
 // jquery
 $(document).ready(function(){
  $('.slider_1').slick(
-  {arrows:true,
-    dots:true,
+  {
+      arrows:true,
+      dots:true,
     // adaptiveHeight:true,
     // variableWidth: false,
     variableWidth: true,
@@ -66,14 +67,13 @@ $(document).ready(function(){
   }
  );
 
-
-
 });
 
 $(document).ready(function(){
   $('.slider_2').slick(
-   {arrows:true,
-     dots:true,
+   {
+      arrows:true,
+      dots:true,
      // adaptiveHeight:true,
      // variableWidth: false,
      variableWidth: true,
@@ -82,7 +82,7 @@ $(document).ready(function(){
      slidesToShow: 3,
      slidesToScroll:3,
      speed: 800,
-     // autoplay: true,
+    //  autoplay: true,
      autoplaySpeed:3000,
  
      waitForAnimate:false,
@@ -140,6 +140,9 @@ $(document).ready(function(){
  
  
  });
+
+
+
 
 // function outputElementHeight() {
 //   var element = document.querySelector('.listOfWorks_interior');

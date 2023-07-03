@@ -104,19 +104,30 @@ body {
 /* header */
 .header {
   grid-area: header;
-  height: 13em;
+  height: 15em;
   margin-bottom: 0.7em;
 }
 
 .headerText {
   text-align: left;
   font-size: 3rem;
-  padding: 0.2em 0 0.5em 0.5em;
+  padding: 0.2em 0 0 0.5em;
   color: white;
   letter-spacing: 5px;
-  text-shadow: 4px 4px 5px #5e0413;
+  text-shadow: 4px 4px 5px black;
   /* text-shadow: 2px 2px 5px black; */
 }
+.headerPhone {
+  text-align: left;
+  font-size: 2rem;
+  padding: 0.2em 0 0.5em 0.5em;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 4px 4px 5px black;
+  /* text-shadow: 2px 2px 5px black; */
+}
+
+
 
 .logo {
   width: 10vw;
@@ -125,10 +136,11 @@ body {
 }
 
 .backgrd {
-  background: url('../img/headerBackground.jpeg');
+  width: 100vw;
+  background: url('../img/headerBackground.jpg');
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
 }
 
@@ -219,10 +231,11 @@ body {
 }
 
 .contacts_whatApp {
-  width: 1.2em;
-  height: 1.2em;
+  width: 1.3em;
+  height: 1.3em;
   /* width: 3%;  height: auto; */
   color: transparent;
+  margin: 0.2em 0 0 0;
 }
 
 .footer_call {
@@ -231,6 +244,7 @@ body {
 
 .footer_massenger {
   grid-area: footer_massenger;
+  
 }
 
 
